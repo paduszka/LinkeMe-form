@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LinkMe-form</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<script src="jquery.min.js"></script>
+<script src="jquery.validate.min.js"></script>
+<script src="additional-methods.js"></script>
+<script src="validation.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+  	<div class="content">
+  	<div class="main">
+  	<h1>Registration</h1>
+      <form action="process.html" method="post" name="signup" id="signup">
+        <div>
+          <label for="name" class="label">Name:</label>
+          <input name="name" type="text" class="required" id="name" title="Insert your name">
+        </div>
+        <div>
+          <label for="surname" class="label">Surname:</label>
+          <input name="surname" type="text" class="required" id="surname" title="Insert your surname">
+        </div>
+        <div>
+          <label for="email" class="label">E-mail adress:</label>
+          <input name="email" type="text" class="required" id="email" title="Insert your E-mail">
+        </div>
+        <div>
+          <label for="codicefiscale" class="label">Codice fiscale:</label>
+          <input name="codicefiscale" type="text" class="required" id="codicefiscale" title="Insert your Codice Fiscale">
+        </div>
+        <div>
+          <label for="dob" class="label">Date of birth:</label>
+          <input name="dob" type="text" id="dob" title="Insert your date - dd/mm/yyyy">
+        </div>
+        <div>
+          <input type="submit" name="submit" id="submit" value="Send">
+        </div>
+      </form>
+  		</div>
+  	</div>
+
+</body>
+</html>
